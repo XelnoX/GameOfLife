@@ -18,7 +18,7 @@ import kotlin.math.floor
 class GameOfLife : Application() {
     override fun start(primaryStage: Stage) {
         val root = VBox(10.0)
-        val scene = Scene(root, width.toDouble(), (height + 100).toDouble())
+        val scene = Scene(root, width.toDouble(), (height + 45).toDouble())
         val canvas = Canvas(width.toDouble(), height.toDouble())
         val reset = Button("Reset")
         val random = Button("Random")
